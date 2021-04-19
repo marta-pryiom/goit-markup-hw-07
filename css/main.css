@@ -855,6 +855,10 @@ body {
   min-height: 50px;
 }
 
+.button-active--footer:hover {
+  background-color: #188ce8;
+}
+
 .backdrop {
   transition-property: opacity;
   transition-duration: 250ms;

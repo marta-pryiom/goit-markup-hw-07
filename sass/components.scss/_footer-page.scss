@@ -101,4 +101,8 @@
   justify-content: center;
   min-width: 200px;
   min-height: 50px;
+
+  &:hover {
+    background-color: #188ce8;
+  }
 }
