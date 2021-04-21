@@ -30,7 +30,6 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: $additional-text-color;
-    margin: 0;
   }
   &__link {
     font-family: $main-font-family;
@@ -38,17 +37,22 @@
     line-height: 1.71;
     color: $additional-text-color;
   }
+  &__list .mail__item {
+    margin-bottom: 9px;
+  }
   &__list {
     display: block;
     text-align: left;
     margin: 9px 0 0 0;
     padding: 0;
   }
-}
 
-.mail__item,
-.tel__item {
-  color: rgba(255, 255, 255, 0.6);
+  &__list a {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .mail {
+    margin-bottom: 9px;
+  }
 }
 
 .social,
@@ -88,6 +92,7 @@
     border-radius: 4px;
     background-color: transparent;
     margin-right: 12px;
+    color: rgba(255, 255, 255, 0.6);
   }
 
   &__svg {
